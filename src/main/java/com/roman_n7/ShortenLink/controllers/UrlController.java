@@ -35,7 +35,7 @@ public class UrlController {
     @PostMapping("/api/shorten")  
     public ResponseEntity<?> shorten(@RequestBody ShortenRequest request){
         UrlMapping mapping = urlService.createNewUrlMapping(request.getOriginalUrl());
-        return ResponseEntity.status(HttpStatus.CREATED).location(URI.create("http://localhost:8080/u/"+mapping.getShortCode())).build();
+        return ResponseEntity.status(HttpStatus.CREATED).location(URI.create("https://shortenlink-ngpy.onrender.com/u/"+mapping.getShortCode())).build();
     }
     
 }
