@@ -10,11 +10,11 @@ Includes a basic frontend interface to shorten URLs via a web page.
 
 ## Features
 
-- Shorten long URLs to short codes
-- Redirect short codes to original URLs
-- Simple frontend with HTML, CSS, and JavaScript
-- Uses Spring Data JPA for database operations
-
+- ✅ Shorten long URLs to short codes  
+- 🔁 Redirect short codes to original URLs  
+- 🌐 Simple frontend with HTML, CSS, and JavaScript  
+- 💾 Uses Spring Data JPA for database operations  
+- 🐳 Dockerized for easy deployment
 ---
 
 ## Project Structure
